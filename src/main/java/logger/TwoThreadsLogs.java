@@ -37,6 +37,7 @@ public class TwoThreadsLogs {
             while (i <= 500) {
                 log.info("Loop " + this.loopNum + ", Read: " + i);
                 i = i + 1;
+                System.out.println("c");
                 log.info("Loop " + this.loopNum + ", Write: " + i);
             }
         }
